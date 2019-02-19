@@ -4,6 +4,7 @@ A simple react hook to detect click or touch events outside an element and execu
 
 [![NPM](https://img.shields.io/npm/v/click-outside-hook.svg)](https://www.npmjs.com/package/click-outside-hook)
 [![CircleCI](https://circleci.com/gh/andreoav/click-outside-hook/tree/master.svg?style=svg)](https://circleci.com/gh/andreoav/click-outside-hook/tree/master)
+[![module formats: cjs, and es][module-formats-badge]][unpkg-dist]
 
 ## Install
 
@@ -33,3 +34,6 @@ When the user clicks or touches outside the `Awesome content` element, the callb
 ## License
 
 MIT © [andreoav](https://github.com/andreoav)
+
+[unpkg-dist]: https://unpkg.com/click-outside-hook/dist
+[module-formats-badge]: https://img.shields.io/badge/module%20formats-cjs%2C%20es-green.svg?style=flat-square
