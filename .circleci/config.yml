@@ -24,6 +24,7 @@ workflows:
       - build_and_test
       - release:
           filters:
-            only: master
+            branches:
+              only: master
           requires:
             - build_and_test
