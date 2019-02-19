@@ -1,22 +1,18 @@
 {
-  "name": "typescript-starter",
-  "version": "0.0.0",
-  "description": "A typescript starter based on alexjoverm/typescript-library-starter updated for my needs",
-  "keywords": [
-    "typescript",
-    "typescript starter",
-    "boilerplate"
-  ],
+  "name": "click-outside-hook",
+  "version": "0.0.0-development",
+  "description": "A hook to detect clicks outside an element",
   "main": "dist/typescript-starter.umd.js",
   "module": "dist/typescript-starter.es5.js",
   "typings": "dist/types/typescript-starter.d.ts",
+  "sideEffects": false,
   "files": [
     "dist"
   ],
   "author": "Andreo Vieira <contato@andreovieira.com.br>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andreoav/typescript-starter.git"
+    "url": "https://github.com/andreoav/click-outside-hook.git"
   },
   "license": "MIT",
   "engines": {
