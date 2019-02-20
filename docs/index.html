@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>typescript-starter | typescript-starter</title>
+	<title>click-outside-hook | click-outside-hook</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -879,7 +879,7 @@ img { max-width: 100%; }
 		<div class="container">
 			<div class="table-wrap">
 				<div class="table-cell">
-					<strong><a href="index.html">typescript-starter</a></strong>
+					<strong><a href="index.html">click-outside-hook</a></strong>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -920,21 +920,21 @@ img { max-width: 100%; }
 			<h1 id="click-outside-hook">click-outside-hook</h1>
 			<p>A simple react hook to detect click or touch events outside an element and execute a provided callback when this happens.</p>
 			<p><a href="https://www.npmjs.com/package/click-outside-hook"><img src="https://img.shields.io/npm/v/click-outside-hook.svg" alt="NPM"></a>
-				<a href="https://circleci.com/gh/andreoav/click-outside-hook/tree/master"><img src="https://circleci.com/gh/andreoav/click-outside-hook/tree/master.svg?style=svg" alt="CircleCI"></a>
+				<a href="https://circleci.com/gh/andreoav/click-outside-hook/tree/master"><img src="https://circleci.com/gh/andreoav/click-outside-hook/tree/master.svg?style=svg" alt="CircleCI"></a> <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/andreoav/click-outside-hook.svg" alt="Greenkeeper badge"></a>
 			<a href="https://unpkg.com/click-outside-hook/dist"><img src="https://img.shields.io/badge/module%20formats-cjs%2C%20es-green.svg?style=flat-square" alt="module formats: cjs, and es"></a></p>
 			<h2 id="install">Install</h2>
 			<pre><code class="language-bash">yarn add click-outside-hook</code></pre>
 			<h2 id="usage">Usage</h2>
-			<pre><code class="language-tsx">import * as React from &#39;react&#39;;
-import useClickOutside from &#39;click-outside-hook&#39;;
+			<pre><code class="language-js"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;
+<span class="hljs-keyword">import</span> useClickOutside <span class="hljs-keyword">from</span> <span class="hljs-string">'click-outside-hook'</span>;
 
-export default function SomeAwesomeComponent() {
-  const ref = useClickOutside(() =&gt; console.log(&#39;my callback&#39;));
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">SomeAwesomeComponent</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">const</span> ref = useClickOutside(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'my callback'</span>));
 
-  return (
-    &lt;div&gt;
-      &lt;div ref={ref}&gt;Awesome content&lt;/div&gt;
-    &lt;/div&gt;
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">ref</span>=<span class="hljs-string">{ref}</span>&gt;</span>Awesome content<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
   );
 }</code></pre>
 			<p>When the user clicks or touches outside the <code>Awesome content</code> element, the callback is executed.</p>
@@ -967,7 +967,7 @@ export default function SomeAwesomeComponent() {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/andreoav/click-outside-hook/blob/34457f4/src/index.ts#L3">index.ts:3</a></li>
+								<li>Defined in <a href="https://github.com/andreoav/click-outside-hook/blob/355332f/src/index.ts#L3">index.ts:3</a></li>
 							</ul>
 						</aside>
 						<h4 class="tsd-parameters-title">Parameters</h4>

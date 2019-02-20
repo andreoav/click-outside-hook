@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
     "moduleResolution": "node",
     "target": "es5",
     "module": "esnext",
@@ -18,8 +19,6 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "declarationDir": "dist/types",
-    "outDir": "dist/lib",
     "typeRoots": ["node_modules/@types"]
   },
   "include": ["src"],

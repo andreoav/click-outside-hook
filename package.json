@@ -2,9 +2,10 @@
   "name": "click-outside-hook",
   "version": "0.0.0-development",
   "description": "A hook to detect clicks outside an element",
-  "main": "dist/typescript-starter.umd.js",
-  "module": "dist/typescript-starter.es5.js",
-  "typings": "dist/types/typescript-starter.d.ts",
+  "source": "src/index.ts",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es5.js",
+  "typings": "dist/index.d.ts",
   "sideEffects": false,
   "files": [
     "dist"
@@ -21,7 +22,7 @@
   "scripts": {
     "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "prebuild": "rimraf dist",
-    "build": "tsc --module commonjs && rollup -c rollup.config.ts && typedoc --out docs --target es6 --theme minimal --mode file src",
+    "build": "rollup -c rollup.config.ts && typedoc --out docs --target es6 --theme minimal --mode file src",
     "start": "rollup -c rollup.config.ts -w",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watch",

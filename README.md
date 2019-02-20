@@ -14,8 +14,8 @@ yarn add click-outside-hook
 
 ## Usage
 
-```tsx
-import * as React from 'react';
+```js
+import React from 'react';
 import useClickOutside from 'click-outside-hook';
 
 export default function SomeAwesomeComponent() {
