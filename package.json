@@ -104,7 +104,7 @@
     "rimraf": "^2.6.2",
     "rollup": "^1.2.2",
     "rollup-plugin-commonjs": "^9.1.8",
-    "rollup-plugin-filesize": "^6.0.1",
+    "rollup-plugin-filesize": "^8.0.1",
     "rollup-plugin-json": "^3.1.0",
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
