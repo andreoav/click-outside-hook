@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 
-export default function useClickOutside(callback: EventListener) {
-  const container = useRef<HTMLElement>(null);
+export default function useClickOutside<T extends HTMLElement>(
+  callback: EventListener
+) {
+  const container = useRef<T>(null);
   const [isTouchEvent, setTouchEvent] = useState(false);
   const eventType = isTouchEvent ? 'touchend' : 'click';
 

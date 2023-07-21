@@ -19,7 +19,8 @@ import React from 'react';
 import useClickOutside from 'click-outside-hook';
 
 export default function SomeAwesomeComponent() {
-  const ref = useClickOutside(() => console.log('my callback'));
+  const ref =
+    useClickOutside < HTMLDivElement > (() => console.log('my callback'));
 
   return (
     <div>
